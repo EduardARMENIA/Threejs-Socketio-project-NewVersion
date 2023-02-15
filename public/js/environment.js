@@ -8,7 +8,7 @@ function createEnvironment(scene) {
   let myMaterial = new THREE.MeshBasicMaterial({ map: texture });
   myMesh = new THREE.Mesh(myGeometry, myMaterial);
   myMesh.position.set(5, 2, 5);
-  scene.add(myMesh);
+ 
 }
 
 
